@@ -1,7 +1,3 @@
-let btn1 = document.getElementById("btn1")
-let btn2 = document.getElementById("btn2")
-let btn3 = document.getElementById("btn3")
-
 let hScoreEl = document.getElementById("homeScore")
 let gScoreEl = document.getElementById("guestScore")
 
@@ -16,4 +12,9 @@ function hplusX(x) {
 function gplusX(x) {
     gScore += x
     gScoreEl.textContent = gScore
+}
+
+function reset(){
+    hScore.textContent = 0
+    gScore.textContent = 0
 }
