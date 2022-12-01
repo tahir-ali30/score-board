@@ -1,0 +1,38 @@
+body {
+    background: #1B244A;
+    margin: 0;
+    text-align: center;
+}
+
+h3{
+    color: #EEEEEE;
+}
+
+#homeScore{
+    background: #0a0001;
+    font-family: 'Cursed Timer ULiL' ;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+#guestScore{
+    background: #0a0001;
+    font-family: 'Cursed Timer ULiL' ;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    border-radius: 5px;
+    fill: #9AABD8;
+    stroke: #9AABD8;
+}
